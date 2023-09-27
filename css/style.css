@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+
+  width:25%;
+  float: left;
+}
+.logo img{
+  margin-left: 100px;
+  margin-top:20px;
+}
+.li1{
+  float:right;
+  width: 50%;
+  margin-top: 40px;
+  
+}
+.word{
+  width:50%;
+  margin: 350px auto 0px;
+  color: white;
+  text-align: center;
+}
+.nav{
+
+  overflow: hidden;
+}
+.li1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left:15px;
+  font-size:25px;
+  color: white;
+}
+.home{
+  background-color: rgb(39, 35, 35);
+  height:100vh;
+  position: relative;
+
+}
+.word h1{
+  font-size: 60px;
+}
+.word h2{
+  font-size:40px;
+}
+.word p{
+  font-size:17px;
+}
+.button{
+  margin-top:15px;
+  background-color: rgb(39, 35, 35);
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-color: white;
+}
+.word p{
+  margin-top: 10px;
+}
+.b1{
+  background-color:#e65f78;
+  width:40px;
+  height:65px;
+  position: fixed;
+  top:400px;
+  left:10px;
+  border-radius: 5px;
+}
+.b1 i{
+  margin-top:15px;
+  margin-left:3px;
+}
+.b2{
+  background-color:#e65f78;
+  width:40px;
+  height:65px;
+  position: fixed;
+  right:15px;
+  top:750px;
+  border-radius: 5px;
+}
+.b2 i{
+  margin-top:15px;
+  margin-left:3px;
+}
+.b3{
+  position: absolute;
+  top:900px;
+  right: 940px;
+  left: auto;
+  width: 40px;
+  height: 75px;
+  background-color:transparent;
+  border-radius:20px;
+  border:3px solid white;
+}
+.bib1{
+  background-color: white;
+  width: 5px;
+  height: 25px;
+  border: 3px solid white;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius:5px;
+}
